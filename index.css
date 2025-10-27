@@ -1,0 +1,63 @@
+body{
+      background-color: rgb(2, 86, 103);
+}
+.head-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+
+}
+.search-box{
+    background-color: rgb(10, 40, 53);
+    width: 860px;
+    height: 100px;
+    display:flex ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 20px;
+
+}
+.searchbar input{
+    width: 500px;
+    height:30px;
+    border-radius: 10px;
+   
+}
+.searchbar select{
+    height:30px;
+    border-radius: 10px;
+    
+}
+.searchbar button{
+    width: 80px;
+    height:30px;
+    border-radius: 10px; 
+   
+}
+.tables{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    background-color: rgb(10, 40, 53);
+    width: 860px;
+    height: 30px;
+    padding: 1%;
+    border-collapse: collapse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    
+}
+td, th {
+  border: 1px solid black;
+  padding: 8px;
+}
+thead{
+    color: yellow;
+}
