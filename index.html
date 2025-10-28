@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
-
 <body>
+    <body>
     <section class="head-section">
-        <div class="search-box">
-            <form action="" class="searchbar">
-                <input type="text" name="task" id="" placeholder="Enter task">
+        <div class="input-section">
+            <form action="" class="add-form">
+                <input type="text" name="task" id="task" placeholder="Enter task">
                 <button id="add">ADD</button>
+                <div id="fillter-buttons">
+                    <button class="all">ALL</button>
+                    <button class="all">COMPLETED</button>
+                    <button class="all">PENDING</button>
+                </div>
+                
             </form>
         </div>
     </section>
@@ -22,6 +27,7 @@
     <table>
         <thead>
           <tr>
+            <th></th>
             <th></th>
             <th>Task Name</th>
             <th>Edit</th>
@@ -34,12 +40,9 @@
 
         
     </table>
-</section >
-
-      
-
+</section>
 
     <script src="index.js"></script>
 </body>
-
 </html>
+ 

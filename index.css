@@ -8,7 +8,7 @@ body{
     padding: 2%;
 
 }
-.search-box{
+.input-section{
     background-color: rgb(10, 40, 53);
     width: 860px;
     height: 100px;
@@ -19,18 +19,18 @@ body{
     border-radius: 20px;
 
 }
-.searchbar input{
+.add-form input{
     width: 500px;
     height:30px;
     border-radius: 10px;
    
 }
-.searchbar select{
+.add-form select{
     height:30px;
     border-radius: 10px;
     
 }
-.searchbar button{
+.add-form button{
     width: 80px;
     height:30px;
     border-radius: 10px; 
@@ -60,4 +60,32 @@ td, th {
 }
 thead{
     color: yellow;
+}
+#data{
+    font-size:20px;
+    font-weight: bold;
+}
+#edit{
+     width: 100px;
+    height: 30PX;
+    border-radius: 7PX;
+  
+}
+#delete{
+    width: 100px;
+    height: 30PX;
+    border-radius: 7PX;
+
+
+}
+#delete:hover{
+    background-color: rgba(255, 0, 0, 0.885);
+    color: white;
+}
+#edit:hover{
+    background-color: rgb(11, 189, 11);
+}
+.in{
+   
+    
 }
